@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Carlos Carrasco | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0f172a;
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: #1e293b;
+    }
+
+    .foto {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #3b82f6;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 2.5em;
+    }
+
+    header p {
+      color: #94a3b8;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #3b82f6;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid #3b82f6;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+    }
+
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #1e293b;
+      color: #94a3b8;
+    }
+
+    a {
+      color: #3b82f6;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <!-- FOTO -->
+  <img src="foto.JPG" alt="Foto de Carlos" class="foto">
+
+  <h1>Carlos Carrasco Fernández</h1>
+  <p>Administrador de Sistemas en Formación | ASIR</p>
+
+  <!-- BOTÓN CV -->
+  <a href="CV_Carlos.pdf" class="btn" download>📄 Descargar CV</a>
+</header>
+
+<section>
+  <h2>Sobre mí</h2>
+  <p>
+    Estudiante de ASIR, orientado a sistemas, redes y ciberseguridad.
+    Buscando primera oportunidad en el sector IT a partir de septiembre.
+  </p>
+</section>
+
+<section>
+  <h2>Habilidades</h2>
+  <div class="skills">
+    <div class="card">Windows / Linux</div>
+    <div class="card">Redes</div>
+    <div class="card">Virtualización</div>
+    <div class="card">Python</div>
+    <div class="card">Ciberseguridad</div>
+    <div class="card">Office</div>
+  </div>
+</section>
+
+<section>
+  <h2>Proyectos</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Sistemas</h3>
+      <p>Configuración de Windows y Linux en entorno virtual.</p>
+    </div>
+
+    <div class="card">
+      <h3>Redes</h3>
+      <p>Configuración de red local y pruebas de conectividad.</p>
+    </div>
+
+    <div class="card">
+      <h3>Python</h3>
+      <p>Scripts básicos de automatización.</p>
+    </div>
+
+    <div class="card">
+      <h3>Ciberseguridad</h3>
+      <p>Buenas prácticas de seguridad en sistemas.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Contacto</h2>
+  <p>
+    📧 ccfernandez734@gmail.com<br>
+    📞 600 230 942
+  </p>
+</section>
+
+<footer>
+  © 2026 Carlos Carrasco
+</footer>
+
+</body>
+</html>
